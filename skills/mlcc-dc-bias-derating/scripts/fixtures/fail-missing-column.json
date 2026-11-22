@@ -1,0 +1,7 @@
+{
+  "biasCsvText": "DC Bias[V],Capacitance[uF],\n0.0,10.0,\n5.0,8.0,\n",
+  "biasV": 3.3,
+  "temperatureC": 25,
+  "nominalCapF": 1e-5,
+  "targetEffectiveF": 1.2e-5
+}

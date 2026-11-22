@@ -1,0 +1,8 @@
+{
+  "biasCsv": "../../references/fixtures/synthetic-bias.csv",
+  "tempCsv": "../../references/fixtures/synthetic-temp.csv",
+  "biasV": 20,
+  "temperatureC": 55,
+  "nominalCapF": 1e-5,
+  "targetEffectiveF": 1.2e-5
+}

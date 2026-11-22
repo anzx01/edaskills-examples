@@ -1,0 +1,6 @@
+#SYNTHETIC-TEACHING-DATA,,
+#c_temp_capacitance,,
+Temperature[degC],Capacitance change rate[%],
+-55.0,-10.0,
+25.0,0.0,
+85.0,-15.0,

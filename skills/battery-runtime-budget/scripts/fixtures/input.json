@@ -1,0 +1,29 @@
+{
+  "battery": {
+    "chemistry": "li-ion",
+    "capacityMah": 2000,
+    "nominalVoltageV": 3.7,
+    "fullVoltageV": 4.2,
+    "cutoffVoltageV": 3.0,
+    "internalResistanceOhm": 0.1,
+    "seriesCells": 1,
+    "parallelStrings": 1
+  },
+  "derating": {
+    "temperatureC": 25,
+    "ageFactor": 0.9
+  },
+  "regulators": [
+    { "name": "buck-3v3", "efficiency": 0.9, "quiescentMa": 0.05 }
+  ],
+  "railVoltageV": 3.3,
+  "reserveMarginPct": 20,
+  "minInputVoltageV": 3.1,
+  "loadProfile": {
+    "segments": [
+      { "name": "sleep", "currentMa": 0.05, "durationS": 3500 },
+      { "name": "sample", "currentMa": 8, "durationS": 60 },
+      { "name": "radio-tx", "currentMa": 120, "durationS": 40 }
+    ]
+  }
+}

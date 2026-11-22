@@ -1,0 +1,20 @@
+{
+  "bus": {
+    "baudBps": 100000,
+    "lengthM": 500,
+    "z0Ohm": 120,
+    "propVelocityMps": 200000000,
+    "marginalRatio": 1.2
+  },
+  "termination": { "ends": "none" },
+  "bias": {
+    "vccV": 5,
+    "pullupOhm": 10000,
+    "pulldownOhm": 10000,
+    "failsafeThresholdV": 0.2
+  },
+  "nodes": [
+    { "name": "classic-nodes", "count": 40, "unitLoad": 1, "stubM": 0.5 }
+  ],
+  "commonMode": { "gpdV": 2, "driverOffsetV": 2.5, "vodV": 2 }
+}

@@ -1,0 +1,32 @@
+{
+  "bus": {
+    "baudBps": 100000,
+    "lengthM": 500,
+    "z0Ohm": 120,
+    "propVelocityMps": 200000000,
+    "riseTimeS": null,
+    "marginalRatio": 1.2
+  },
+  "termination": {
+    "ends": "both",
+    "resistanceOhm": 120,
+    "toleranceRatio": 0.2
+  },
+  "bias": {
+    "vccV": 5,
+    "pullupOhm": 680,
+    "pulldownOhm": 680,
+    "failsafeThresholdV": 0.2
+  },
+  "nodes": [
+    { "name": "field-nodes", "count": 16, "unitLoad": 0.125, "stubM": 0.5 }
+  ],
+  "commonMode": {
+    "gpdV": 2,
+    "driverOffsetV": 2.5,
+    "vodV": 2,
+    "cmMinV": -7,
+    "cmMaxV": 12,
+    "headroomV": 0.5
+  }
+}
